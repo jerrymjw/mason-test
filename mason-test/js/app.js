@@ -34,7 +34,6 @@ const step = document.getElementById('step');
 let time = document.querySelector('.timer'); 
 let star = document.getElementById('star'); 
 
-// h1 每个首字母大写
 let title = document.querySelector('h1').textContent;
 function titleCase(str) {
     return str.toLowerCase().replace(/( |^)[a-z]/g, (L) => L.toUpperCase());
